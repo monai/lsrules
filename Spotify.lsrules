@@ -1,0 +1,123 @@
+{
+  "description" : "",
+  "name" : "Spotify",
+  "rules" : [
+    {
+      "action" : "deny",
+      "ports" : "53",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "udp",
+      "remote-addresses" : "8.8.4.4"
+    },
+    {
+      "action" : "deny",
+      "ports" : "53",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "udp",
+      "remote-addresses" : "8.8.8.8"
+    },
+    {
+      "action" : "deny",
+      "ports" : "1900",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "udp",
+      "remote-addresses" : "239.255.255.250"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-addresses" : "142.250.203.130"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-addresses" : "192.178.25.162"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-addresses" : "216.58.215.66"
+    },
+    {
+      "action" : "deny",
+      "ports" : "80",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "update.googleapis.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "update.googleapis.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.googletagservices.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "sentry.io"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "audio-akp-quic-control-spotify-com.akamaized.net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-hosts" : "audio4-ak-spotify-com.akamaized.net"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-hosts" : "dns.google"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "scdn.co"
+    },
+    {
+      "action" : "allow",
+      "ports" : "80",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "spotify.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "4070",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "spotify.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
+      "remote-domains" : "spotifycdn.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "remote-domains" : "spotify.com"
+    }
+  ]
+}
