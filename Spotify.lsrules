@@ -32,7 +32,7 @@
     {
       "action" : "deny",
       "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
-      "remote-hosts" : "sentry.io"
+      "remote-domains" : "sentry.io"
     },
     {
       "action" : "allow",
