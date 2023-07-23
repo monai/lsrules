@@ -53,6 +53,13 @@
       "ports" : "443",
       "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
       "protocol" : "tcp",
+      "remote-domains" : "spclient.wg.spotify.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
+      "protocol" : "tcp",
       "remote-domains" : "spotifycdn.com"
     },
     {
