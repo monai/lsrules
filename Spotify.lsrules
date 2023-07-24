@@ -45,7 +45,6 @@
       "action" : "allow",
       "ports" : "80, 443, 4070",
       "process" : "\/Applications\/Spotify.app\/Contents\/MacOS\/Spotify",
-      "protocol" : "tcp",
       "remote-domains" : "spotify.com"
     },
     {
