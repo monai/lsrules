@@ -5,27 +5,27 @@
     {
       "action" : "deny",
       "direction" : "incoming",
-      "process" : "\/Library\/SystemExtensions\/9D24C8D3-3F6C-40CA-BDE2-A57F44AF9E2B\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
+      "process" : "\/Library\/SystemExtensions\/*\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
       "remote" : "any"
     },
     {
       "action" : "deny",
-      "process" : "\/Library\/SystemExtensions\/9D24C8D3-3F6C-40CA-BDE2-A57F44AF9E2B\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
+      "process" : "\/Library\/SystemExtensions\/*\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
       "remote-addresses" : "1.1.1.1, 8.8.4.4, 8.8.8.8"
     },
     {
       "action" : "deny",
-      "process" : "\/Library\/SystemExtensions\/9D24C8D3-3F6C-40CA-BDE2-A57F44AF9E2B\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
+      "process" : "\/Library\/SystemExtensions\/*\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
       "remote-hosts" : "log.tailscale.io"
     },
     {
       "action" : "deny",
-      "process" : "\/Library\/SystemExtensions\/9D24C8D3-3F6C-40CA-BDE2-A57F44AF9E2B\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
+      "process" : "\/Library\/SystemExtensions\/*\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
       "remote-domains" : "one.one.one.one"
     },
     {
       "action" : "allow",
-      "process" : "\/Library\/SystemExtensions\/9D24C8D3-3F6C-40CA-BDE2-A57F44AF9E2B\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
+      "process" : "\/Library\/SystemExtensions\/*\/io.tailscale.ipn.macsys.network-extension.systemextension\/Contents\/MacOS\/io.tailscale.ipn.macsys.network-extension",
       "remote" : "any"
     }
   ]
